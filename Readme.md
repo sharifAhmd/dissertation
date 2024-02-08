@@ -14,7 +14,7 @@ python -m pip install -qr requirements.txt
 ```
  Run the streamlit app (being at the repository root):
 ```
-streamlit run src\Home.py
+streamlit run src/app.py
 ```       
 After the successfull run, the running interface can be found in this URL 
 ```
