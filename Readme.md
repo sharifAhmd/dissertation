@@ -21,6 +21,6 @@ After the successfull run, the running interface can be found in this URL
 http://localhost:8501
 ```
 ## Live prediction system 
-It can be accessed in this [here](https://dissertation-solar-flare-prediction-30-min.streamlit.app/).  
+It can be accessed from [here](https://dissertation-solar-flare-prediction-30-min.streamlit.app/).  
 
 ![Alt text](media/UI_of_prediction_system.png)
