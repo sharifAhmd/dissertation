@@ -36,7 +36,7 @@ def get_realtime_inference_data():
         # Parse the JSON content
         data = response.json()
     df = pd.DataFrame(data)
-    df_xl = df.iloc[lambda x: x.index % 2 == 0].reset_index(drop=True)
+    df_xl = df.iloc[lambda x: x.index % 2 == 1].reset_index(drop=True)
     df_xl = df_xl.replace(0.0, np.nan)
     df_xl = df_xl.ffill()
 
